@@ -1,7 +1,13 @@
+body {
+  background: lightblue;
+  min-height: 200vh;
+  margin: 0;
+}
+
 // wrapping landscape
 .landscape {
   background: var(--c1);
-  height: 75vh;
+  height: 90vh;
   overflow: hidden;
   position: relative;
 
@@ -33,7 +39,6 @@
     min-width: 100%;
     position: absolute;
     transform: translateX(-50%);
-    width: 2500px;
 
     svg {
       display: block;
@@ -49,64 +54,37 @@
   height: 625px;
   max-width: 100%;
   background-position-x: center;
-  background-size: cover;
+  background-size: contain;
 
 
   &.l01 {
-    background-image: url("../img/test-01.png");
-    background-position-y: top;
+    background-image: url("../img/l01.png");
+    background-position-y: bottom;
   }
   &.l02 {
-    background-image: url("../img/test-02.png");
+    background-image: url("../img/l02.png");
     background-position-y: bottom;
   }
   &.l03 {
-    background-image: url("../img/test-02.png");
+    background-image: url("../img/l03.png");
     background-position-y: bottom;
   }
   &.l04 {
-    background-image: url("../img/test-02.png");
+    background-image: url("../img/l04.png");
     background-position-y: bottom;
   }
   &.l05 {
-    background-image: url("../img/test-02.png");
+    background-image: url("../img/l05.png");
     background-position-y: bottom;
   }
   &.l06 {
-    background-image: url("../img/test-02.png");
+    background-image: url("../img/l06.png");
     background-position-y: bottom;
   }
   &.l07 {
-    background-image: url("../img/test-02.png");
+    background-image: url("../img/l07.png");
     background-position-y: bottom;
   }
-}
-
-
-/**
- * Styles for demo
- */
-
-// colours - keep an eye on my blog (https://alistairshepherd.uk/writing/) for animating these!
-html {
-  --c0: #feebe2;
-  --c1: #ffe2a6;
-  --c2: #ffb06d;
-  --c3: #ff9d60;
-  --c4: #ff8f4c;
-  --c5: #fc813a;
-  --c6: #f04f30;
-  --c7: #d2353a;
-  --c8: #8b1036;
-  --c9: #620a38;
-  --c10: #2f1121;
-}
-
-// typography styles and ensure body is long enough to scroll
-body {
-  background: var(--c10);
-  color: #fff;
-  min-height: 200vh;
 }
 
 // content section
