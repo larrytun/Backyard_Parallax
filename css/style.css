@@ -1,7 +1,8 @@
 body {
   min-height: 200vh;
   margin: 0;
-  font-family: "Rammetto One", cursive;
+  font-family: "Nothing You Could Do", cursive;
+  background-image: url("../img/grass.png");
 }
 
 .landscape {
@@ -47,20 +48,32 @@ body {
   background-image: url("../img/grass.png");
   background-size: cover;
   text-align: center;
-}
-.landscape__image.grass h1 {
-  font-size: 120px;
   color: white;
   text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
-  margin: 20px 0 0;
+}
+.landscape__image.grass h1 {
+  font-size: 90px;
+  margin: 10px 0 0;
 }
 .landscape__image.grass h1:first-of-type {
-  margin-top: 300px;
+  margin-top: 170px;
 }
-
-.wrap {
-  margin-top: -10%;
-  background-image: url("../img/grass2.png");
+.landscape__image.grass p {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 0;
+}
+.landscape__image.grass a {
+  color: white;
+}
+.landscape__image.grass a:visited {
+  color: darkred;
+}
+.landscape__image.grass a:hover {
+  color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */
