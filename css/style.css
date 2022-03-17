@@ -5,7 +5,6 @@ body {
 
 .landscape {
   height: 90vh;
-  overflow: hidden;
   position: relative;
 }
 .landscape__layer {
@@ -20,6 +19,10 @@ body {
   .landscape__layer {
     transform: translateY(0);
   }
+}
+.landscape__layer.grass {
+  height: 112vh;
+  top: 98%;
 }
 .landscape__image {
   bottom: 0;
@@ -37,10 +40,16 @@ body {
   width: 100%;
   background-image: url("../img/sky.png");
 }
+.landscape__image.grass {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/grass.png");
+  background-size: cover;
+}
 
 .wrap {
   margin-top: -10%;
-  background-image: url("../img/grass.png");
+  background-image: url("../img/grass2.png");
 }
 
 /*# sourceMappingURL=style.css.map */
