@@ -34,48 +34,6 @@ body {
   position: absolute;
   transform: translateX(-50%);
 }
-.landscape__image svg {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-.imageLayer {
-  display: block;
-  height: auto;
-  height: 625px;
-  max-width: 100%;
-  background-position-x: center;
-  background-size: contain;
-}
-.imageLayer.l01 {
-  background-image: url("../img/l01.png");
-  background-position-y: bottom;
-}
-.imageLayer.l02 {
-  background-image: url("../img/l02.png");
-  background-position-y: bottom;
-}
-.imageLayer.l03 {
-  background-image: url("../img/l03.png");
-  background-position-y: bottom;
-}
-.imageLayer.l04 {
-  background-image: url("../img/l04.png");
-  background-position-y: bottom;
-}
-.imageLayer.l05 {
-  background-image: url("../img/l05.png");
-  background-position-y: bottom;
-}
-.imageLayer.l06 {
-  background-image: url("../img/l06.png");
-  background-position-y: bottom;
-}
-.imageLayer.l07 {
-  background-image: url("../img/l07.png");
-  background-position-y: bottom;
-}
 
 .wrap {
   margin: 5rem auto;
@@ -83,11 +41,6 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
-}
-
-a {
-  color: inherit;
-  text-decoration-color: var(--c6);
 }
 
 /*# sourceMappingURL=style.css.map */

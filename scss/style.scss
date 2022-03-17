@@ -4,31 +4,24 @@ body {
   margin: 0;
 }
 
-// wrapping landscape
 .landscape {
   background: var(--c1);
   height: 90vh;
   overflow: hidden;
   position: relative;
 
-  // positioning for each layer and parallax
   &__layer {
-    // positioning
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
-
-    // parallax
     transform: translateY(calc(var(--scrollPos, 0) * var(--offset, 0)));
-
     @media (prefers-reduced-motion: reduce) {
       transform: translateY(0);
     }
   }
 
-  // svg wrapper
   &__image {
     bottom: 0;
     display: flex;
@@ -39,64 +32,13 @@ body {
     min-width: 100%;
     position: absolute;
     transform: translateX(-50%);
-
-    svg {
-      display: block;
-      height: auto;
-      max-width: 100%;
-    }
   }
 }
 
-.imageLayer {
-  display: block;
-  height: auto;
-  height: 625px;
-  max-width: 100%;
-  background-position-x: center;
-  background-size: contain;
-
-
-  &.l01 {
-    background-image: url("../img/l01.png");
-    background-position-y: bottom;
-  }
-  &.l02 {
-    background-image: url("../img/l02.png");
-    background-position-y: bottom;
-  }
-  &.l03 {
-    background-image: url("../img/l03.png");
-    background-position-y: bottom;
-  }
-  &.l04 {
-    background-image: url("../img/l04.png");
-    background-position-y: bottom;
-  }
-  &.l05 {
-    background-image: url("../img/l05.png");
-    background-position-y: bottom;
-  }
-  &.l06 {
-    background-image: url("../img/l06.png");
-    background-position-y: bottom;
-  }
-  &.l07 {
-    background-image: url("../img/l07.png");
-    background-position-y: bottom;
-  }
-}
-
-// content section
 .wrap {
   margin: 5rem auto;
   max-width: 70rem;
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
-}
-
-a {
-  color: inherit;
-  text-decoration-color: var(--c6);
 }
