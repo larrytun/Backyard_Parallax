@@ -1,11 +1,9 @@
 body {
-  background: lightblue;
   min-height: 200vh;
   margin: 0;
 }
 
 .landscape {
-  background: var(--c1);
   height: 90vh;
   overflow: hidden;
   position: relative;
@@ -33,6 +31,11 @@ body {
   min-width: 100%;
   position: absolute;
   transform: translateX(-50%);
+}
+.landscape__image.sky {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/sky.png");
 }
 
 .wrap {
