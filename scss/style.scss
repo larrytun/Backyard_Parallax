@@ -1,6 +1,7 @@
 body {
   min-height: 200vh;
   margin: 0;
+  font-family: 'Rammetto One', cursive;
 }
 
 .landscape {
@@ -46,6 +47,18 @@ body {
       width: 100%;
       background-image: url("../img/grass.png");
       background-size: cover;
+      text-align: center;
+
+      h1 {
+        font-size: 120px;
+        color: white;
+        text-shadow: 2px 4px 4px rgba(0,0,0,0.3);
+        margin: 20px 0 0;
+
+        &:first-of-type {
+          margin-top: 300px;
+        }
+      }
     }
   }
 }
