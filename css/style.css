@@ -36,11 +36,8 @@ body {
 }
 
 .wrap {
-  margin: 5rem auto;
-  max-width: 70rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  position: relative;
+  margin-top: -10%;
+  background-image: url("../img/grass.png");
 }
 
 /*# sourceMappingURL=style.css.map */
